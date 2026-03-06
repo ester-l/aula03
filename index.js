@@ -8,6 +8,6 @@ app.get("/idade/:nome/:idade", (req, res)=>{
     })
 })
 
-app.listen(3014, ()=>{
+app.listen(3009, ()=>{
     console.log("Ester o servidor esta Ligado")
 })
