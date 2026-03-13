@@ -7,7 +7,7 @@ app.get("/idade/:nome/:idade", (req, res)=>{
         mensagem:`Nome: ${nome}, Idade: ${idade}`
     })
 })
-
+//teste
 app.listen(3009, ()=>{
     console.log("Ester o servidor esta Ligado")
 })
